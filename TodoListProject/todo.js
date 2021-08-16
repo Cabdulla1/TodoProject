@@ -46,7 +46,7 @@ function filterTodos(e){
 }
 
 
-function deleteTodo(e){ 
+function deleteTodo(e){  
     if(e.target.className === "fa fa-remove"){
         e.target.parentElement.parentElement.remove();
         deleteTodoFromStorage(e.target.parentElement.parentElement.textContent);
