@@ -52,7 +52,7 @@ function deleteTodo(e){
         deleteTodoFromStorage(e.target.parentElement.parentElement.textContent);
     }
 }
-
+ 
 
 function deleteTodoFromStorage(deletetodo){
     let todos = getTodosFromStorage();
